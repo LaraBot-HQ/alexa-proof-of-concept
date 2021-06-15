@@ -1,0 +1,64 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "lara bot",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "HelloWorldIntent",
+                    "slots": [],
+                    "samples": [
+                        "hello",
+                        "how are you",
+                        "say hi world",
+                        "say hi",
+                        "hi",
+                        "say hello world",
+                        "say hello"
+                    ]
+                },
+                {
+                    "name": "LigthOnIntent",
+                    "slots": [],
+                    "samples": [
+                        "prende el bombillo",
+                        "prende la luz",
+                        "enciende el bombillo",
+                        "enciende la luz",
+                        "activa el bombillo",
+                        "activa la luz"
+                    ]
+                },
+                {
+                    "name": "LigthOffIntent",
+                    "slots": [],
+                    "samples": [
+                        "apaga el bombillo",
+                        "apaga la luz",
+                        "quiza el bombillo",
+                        "quiza la luz",
+                        "desactiva el bombillo",
+                        "desactiva la luz"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": []
+        }
+    }
+  }
+  

@@ -1,0 +1,44 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Sample Short Description",
+          "examplePhrases": [
+            "Alexa open lara bot"
+          ],
+          "name": "skill-larabot",
+          "description": "Sample Full Description"
+        },
+        "es-ES": {
+          "summary": "Sample Short Description",
+          "examplePhrases": [
+            "Alexa abre lara bot"
+          ],
+          "name": "skill-larabot",
+          "description": "Sample Full Description"
+        },
+        "es-MX": {
+          "summary": "Sample Short Description",
+          "examplePhrases": [
+            "Alexa abre lara bot"
+          ],
+          "name": "skill-larabot",
+          "description": "Sample Full Description"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:182229306904:function:ask-skill-larabot-default-default-1623285277876"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
